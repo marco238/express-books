@@ -1,0 +1,13 @@
+[{
+  "title": "El nombre del viento",
+  "author": "Patrick Rothfuss",
+  "description": "lorem ipsum",
+  "genres": ["Fantasy"],
+  "pages": 1000
+},
+{
+  "title": "Harry Potter",
+  "author": "JK Rowling",
+  "genres": ["Fantasy", "Magic"],
+  "pages": 200
+}]

@@ -1,0 +1,7 @@
+<h1>Home</h1>
+
+<ul>
+  {{#each books as |book|}}
+    <li><img height="60" src="{{book.image}}" />{{book.title}} | {{book.author}}</li>
+  {{/each}}
+</ul>
