@@ -1,13 +1,41 @@
-[{
-  "title": "El nombre del viento",
-  "author": "Patrick Rothfuss",
-  "description": "lorem ipsum",
-  "genres": ["Fantasy"],
-  "pages": 1000
-},
-{
-  "title": "Harry Potter",
-  "author": "JK Rowling",
-  "genres": ["Fantasy", "Magic"],
-  "pages": 200
-}]
+[
+  {
+    "title": "El nombre del viento",
+    "author": "Patrick Rothfuss",
+    "description": "lorem ipsum",
+    "genres": ["Fantasy"],
+    "pages": 1000,
+    "image": "https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202210/24/00106520644516____102__1200x1200.jpg"
+  },
+  {
+    "title": "Harry Potter",
+    "author": "JK Rowling",
+    "genres": ["Fantasy", "Magic"],
+    "pages": 200
+  },
+  {
+    "title": "Harry Potter y la Piedra Filosofal",
+    "author": "JK Rowling",
+    "genres": ["Fantasy", "Magic"],
+    "pages": 200,
+    "image": "https://es.web.img2.acsta.net/pictures/14/04/30/11/55/592219.jpg"
+  },
+  {
+    "title": "Harry Potter y la Cámara de los Secretos",
+    "author": "JK Rowling",
+    "genres": ["Fantasy", "Magic"],
+    "pages": 200
+  },
+  {
+    "title": "Harry Potter y el prisionero de Azkaban",
+    "author": "JK Rowling",
+    "genres": ["Fantasy", "Magic"],
+    "pages": 200
+  },
+  {
+    "title": "Harry Potter y el Cáliz de Fuego",
+    "author": "JK Rowling",
+    "genres": ["Fantasy", "Magic"],
+    "pages": 200
+  }
+]

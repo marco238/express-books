@@ -1,7 +1,26 @@
 <h1>Home</h1>
 
-<ul>
+
+<form class="d-block mb-4" method="GET" action="/">
+    <label for="search" class="form-label">Search by title</label>
+    <input type="text" class="form-control mb-2" id="search" name="q">
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+{{#if category}}
+  <h3>Viendo libros de la categoría: {{category}}</h3>
+{{/if}}
+<div class="row row-cols-1 row-cols-md-3 g-4">
   {{#each books as |book|}}
-    <li><img height="60" src="{{book.image}}" />{{book.title}} | {{book.author}}</li>
+    <div class="col">
+      <div class="card h-100">
+        <img src="{{book.image}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{book.title}}</h5>
+          <p class="card-text">This is a longer  card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <a href="/books/{{book._id}}">Ver más</a>
+        </div>
+      </div>
+    </div>
   {{/each}}
-</ul>
+</div>
